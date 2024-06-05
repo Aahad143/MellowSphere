@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/baseline_home_24"/>
+
+    </group>
+
+    <item
+        android:id="@+id/packages"
+        android:title="Packages">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/premium"
+                android:title="Premium"
+                android:icon="@drawable/glitter_2_svgrepo_com"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/register"
+                    android:title="Register/Log In"
+                    android:icon="@drawable/baseline_login_24"/>
+
+                <item
+                    android:id="@+id/logout"
+                    android:title="Log out"
+                    android:icon="@drawable/ic_logout"/>
+            </group>
+        </menu>
+    </item>
+</menu>

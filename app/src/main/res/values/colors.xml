@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="statusBar">#DF000000</color>
+    <color name="navBar">#000000</color>
+    <color name="favourites_icon_color">#3777C6</color>
+    <color name="colorBottomNavSelected">#E544AF</color>
+    <color name="favourite">#E544AF</color>
+    <color name="loop">#E55F44</color>
+    <color name="colorBottomNavUnselected">#FFFFFF</color>
+    <color name="menuiconColor">#E0FBB6E1</color>
+    <color name="menuiconColorSearch">#E088A5FF</color>
+    <color name="menuiconColorProfile">#E055E29C</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

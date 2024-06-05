@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllTabItemFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mixed Tracks"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginStart="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:orientation="vertical"
+            android:background="@drawable/custom_background_8"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            >
+
+            <com.example.mellowsphere.CustomRecyclerView
+                android:layout_gravity="center"
+                android:id="@+id/mix"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+
+<!--        <ImageView-->
+<!--            android:layout_gravity="center"-->
+<!--            android:id="@+id/Logo"-->
+<!--            android:layout_width="354dp"-->
+<!--            android:layout_height="430dp"-->
+<!--            android:contentDescription="@string/Logo"-->
+<!--            android:onClick="register"-->
+<!--            android:src="@drawable/homer"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Albums &amp; Playlists"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginStart="20dp"/>
+
+        <com.example.mellowsphere.CustomRecyclerView
+            android:layout_gravity="center"
+            android:id="@+id/recyclerView"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

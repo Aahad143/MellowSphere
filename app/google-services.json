@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "959436660399",
+    "project_id": "mellowsphere",
+    "storage_bucket": "mellowsphere.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959436660399:android:19f6092e5fb176d6573e5a",
+        "android_client_info": {
+          "package_name": "com.example.mellowsphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb67UfZK8wVeCrsHNpIfzjnP2HQzXtp3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

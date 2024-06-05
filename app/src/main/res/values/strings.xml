@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mellow&#10;Sphere</string>
+    <string name="premium">Want to listen to our tracks offline? Get premium for $2/30 days</string>
+    <string name="mellowsphere_premium">Premium</string>
+    <string name="log_in">Log In</string>
+    <string name="Logo">Logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">123</string>
+    <string name="navigation_drawer_close">123</string>
+</resources>

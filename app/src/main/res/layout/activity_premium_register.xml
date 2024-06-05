@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    tools:context=".PremiumRegister"
+    android:background="@drawable/custom_background_9">
+
+    <TextView
+        android:id="@+id/titlepremium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/mellowsphere_premium"
+        android:textColor="#38074D"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/features"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/premium"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlepremium" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/features">
+
+        <EditText
+            android:id="@+id/nameoncard"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext_3"
+            android:hint="Name on card..."
+            android:padding="15dp"
+            android:text=""
+            android:textColor="#FFF"
+            android:textColorHint="#BEFFFFFF" />
+
+        <EditText
+            android:id="@+id/cardnumber"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext_3"
+            android:hint="Card number..."
+            android:padding="15dp"
+            android:text=""
+            android:inputType="number"
+            android:maxLength="19"
+            android:textColor="#FFF"
+            android:textColorHint="#BEFFFFFF" />
+
+        <EditText
+            android:id="@+id/expiry"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext_3"
+            android:hint="Expiry date (MM/YY)..."
+            android:inputType="date"
+            android:maxLength="5"
+            android:padding="15dp"
+            android:text=""
+            android:textColor="#FFF"
+            android:textColorHint="#BEFFFFFF" />
+
+        <EditText
+            android:id="@+id/security"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext_3"
+            android:hint="Security code (CVV)..."
+            android:padding="15dp"
+            android:text=""
+            android:maxLength="3"
+            android:textColor="#FFF"
+            android:textColorHint="#BEFFFFFF" />
+
+        <EditText
+            android:id="@+id/zipcode"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:background="@drawable/custom_edittext_3"
+            android:hint="Zip/Postal code..."
+            android:padding="15dp"
+            android:text=""
+            android:maxLength="5"
+            android:textColor="#FFF"
+            android:textColorHint="#BEFFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <Button
+            android:id="@+id/getpremium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_background_7"
+            android:text="Get Premium"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/features" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exitpremium"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_back"
+        android:backgroundTint="@color/black"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

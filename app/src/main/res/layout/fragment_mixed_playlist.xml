@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutmixed"
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/custom_background_8"
+    tools:context=".MixedPlaylistFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/mixedlistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
