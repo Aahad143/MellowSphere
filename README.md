@@ -1,7 +1,11 @@
 # MellowSphere
  Mobile music streaming service application
  
-<img src="https://github.com/Aahad143/MellowSphere/assets/122348490/9a183c7d-f4fa-4bce-a5eb-1c4a2ae0b548" alt="Image 1" style="width:500px; padding-left:200px"/>
+<div align="center">
+    <img src="https://github.com/Aahad143/MellowSphere/assets/122348490/9a183c7d-f4fa-4bce-a5eb-1c4a2ae0b548" alt="MellowSphere Logo" style="width:500px;"/>
+</div>
+
+<br>
 
 MellowSphere is an amateur attempt at building an e-commerce mobile application using Java and XML as programming languages for developing front and back end while firebase is used for handling and managing databases.
 
