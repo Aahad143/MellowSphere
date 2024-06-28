@@ -25,3 +25,5 @@ Below are images of what a typical user would see as they explore the app
 ![image](https://github.com/Aahad143/MellowSphere/assets/122348490/901427c6-b20b-42c1-9489-724902accca0)
 ![image](https://github.com/Aahad143/MellowSphere/assets/122348490/e67a4306-4faf-4fc0-93cd-2a46b1b6a84f)
 
+For further more detailed information on this app, download MWAD Report - MellowSphere - By Aahad.pdf file present in the base directory of this repository.
+
